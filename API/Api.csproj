@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Reports\ReportTemplate.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_AML_Collection_MoneyReceipt.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_AML_Withdrawal_Cheque.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_AML_Withdrawal_PaymentReceipt.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_IL_Collection_MoneyReceipt.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_IL_Mandate.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_IL_Margin_Nonmargin.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_IL_Withdrawal_Cheque.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_IL_Withdrawal_PaymentReceipt.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_SL_Collection_MoneyReceipt.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_SL_Margin_Request.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_SL_QryAccVoucherDetail.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_SL_Withdrawal_Cheque.rdlc" />
+    <Content Remove="wwwroot\Reports\Report_Withdrawal_PaymentReceipt.rdlc" />
+    <Content Remove="wwwroot\Reports\RPT_BlankOrdersheetSL.rdlc" />
+    <Content Remove="wwwroot\Reports\RPT_OrdersheetDataOnlySL.rdlc" />
+    <Content Remove="wwwroot\Reports\RPT_OrdersheetDataSL.rdlc" />
+    <Content Remove="wwwroot\Reports\RPT_PayOutReconciliation.rdlc" />
+    <Content Remove="wwwroot\Reports\RPT_PayInReconciliation.rdlc" />
+    <Content Remove="wwwroot\Reports\RPT_SellSurrenderAML.rdlc" />
+    <Content Remove="wwwroot\Reports\RPT_StockReconciliation.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ReportControllers\PayInReportController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Negotiate" Version="7.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Polybioz.HtmlRenderer.PdfSharp.Core" Version="1.0.0" />
+    <PackageReference Include="ReportViewerCore.NETCore" Version="15.1.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+    <PackageReference Include="System.Security.Permissions" Version="7.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Service\Service.csproj" />
+    <ProjectReference Include="..\Utility\Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Reports\Report_SL_Margin_Request.rdlc" />
+    <None Include="wwwroot\Reports\Report_IL_Mandate.rdlc" />
+    <None Include="wwwroot\Reports\Report_IL_Collection_MoneyReceipt.rdlc" />
+    <None Include="wwwroot\Reports\Report_AML_Collection_MoneyReceipt.rdlc" />
+    <None Include="wwwroot\Reports\Report_SL_QryAccVoucherDetail.rdlc" />
+    <None Include="wwwroot\Reports\Report_AML_Withdrawal_Cheque.rdlc" />
+    <None Include="wwwroot\Reports\Report_IL_Withdrawal_Cheque.rdlc" />
+    <None Include="wwwroot\Reports\Report_SL_Withdrawal_Cheque.rdlc" />
+    <None Include="wwwroot\Reports\Report_IL_Withdrawal_PaymentReceipt.rdlc" />
+    <None Include="wwwroot\Reports\Report_AML_Withdrawal_PaymentReceipt.rdlc" />
+    <None Include="wwwroot\Reports\Report_Withdrawal_PaymentReceipt.rdlc" />
+    <None Include="wwwroot\Reports\Report_SL_Collection_MoneyReceipt.rdlc" />
+    <None Include="wwwroot\Reports\Report_IL_Margin_Nonmargin.rdlc" />
+    <None Include="wwwroot\Reports\ReportTemplate.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\Reports\Report_IL_Ordersheet_with_data.rdlc">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
