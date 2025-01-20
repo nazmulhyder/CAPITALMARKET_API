@@ -4,6 +4,11 @@
 
 ---
 
+# 🏗️ **Architecture Design**
+
+The **Cap Connect** platform follows a **Layered Architecture** to ensure scalability, maintainability, and high performance. The architecture is organized into layers: **Presentation Layer (API)** for handling HTTP requests, **Service Layer** for core transaction processing and database interaction, **Utility Layer** for third-party integration, and the **Report Layer** for generating reports. This separation of concerns improves code maintainability and performance under heavy traffic while enabling seamless integration of third-party services and ensuring high availability and security through optimized server configurations.
+
+
 ## 🌟 **Key Features**
 
 - **📊 Real-Time Capital Market Transactions**  
