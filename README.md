@@ -1,85 +1,103 @@
-# 💹 Cap Connect – FinTech Platform for Capital Market Operations
+# 💹 **Cap Connect** – FinTech Platform for Capital Market Operations
 
-**Cap Connect** is a powerful FinTech platform developed for **IDLC Finance PLC**, the largest non-banking financial institution (NBFI) in Bangladesh. Designed to handle high-volume, low-latency transactions, **Cap Connect** optimizes capital market operations, ensuring a seamless experience for stakeholders and meeting the demands of the fast-paced financial environment.
+**Cap Connect** is a state-of-the-art **FinTech platform** developed for **IDLC Finance PLC**, the largest non-banking financial institution (NBFI) in Bangladesh. Engineered to handle high-volume, low-latency transactions, **Cap Connect** optimizes capital market operations, offering an unparalleled experience for stakeholders. It is built to meet the dynamic demands of a fast-paced financial environment, ensuring both reliability and speed.
 
 ---
 
-## 🌟 Key Features
+# 🏗️ **Architecture Design**
+
+The **Cap Connect** platform follows a **Layered Architecture** to ensure scalability, maintainability, and high performance. The architecture is organized into layers: **Presentation Layer (API)** for handling HTTP requests, **Service Layer** for core transaction processing and database interaction, **Utility Layer** for third-party integration, and the **Report Layer** for generating reports. This separation of concerns improves code maintainability and performance under heavy traffic while enabling seamless integration of third-party services and ensuring high availability and security through optimized server configurations.
+
+
+## 🌟 **Key Features**
 
 - **📊 Real-Time Capital Market Transactions**  
-  Handles high-frequency transactions with low-latency and real-time processing.  
-- **📈 Scalable Architecture**  
-  Built to scale efficiently and maintain performance during peak trading hours.  
-- **🔒 High Security & Compliance**  
-  Ensures secure transactions and compliance with financial regulations.  
+  Securely handles high-frequency transactions with minimal latency, ensuring real-time processing for seamless trading experiences.
+  
+- **📈 Scalable & Resilient Architecture**  
+  Designed for scalability, the platform adapts to increasing transaction volumes without compromising performance during peak trading hours.
+  
+- **🔒 Robust Security & Compliance**  
+  Implements industry-standard security protocols to safeguard user data and ensure full compliance with financial regulations.
+  
 - **💬 Bulk User Communication**  
-  Integrated third-party APIs for bulk SMS and email notifications, improving communication with users.  
-- **⚡ Optimized Performance**  
-  Streamlined RESTful API design and optimized database queries for high performance under load.  
+  Integrated third-party APIs for bulk SMS and email notifications, enhancing user engagement and real-time alerts.
+  
+- **⚡ Performance Optimization**  
+  RESTful API design and database queries are optimized to support high-load conditions, ensuring smooth operations.
 
 ---
 
-## 🔧 Technologies Used
+## 🔧 **Technologies Used**
 
-| **Technology**        | **Purpose**                                |
-|------------------------|--------------------------------------------|
-| **C#**                | Core backend logic and processing.        |
-| **ASP.NET Core**      | Development of scalable and high-performance APIs. |
-| **Dapper ORM**        | Efficient database interaction and ORM.    |
+| **Technology**        | **Purpose**                                  |
+|-----------------------|----------------------------------------------|
+| **C#**                | Core backend logic and transaction processing. |
+| **ASP.NET Core**      | Development of scalable, high-performance APIs. |
+| **Dapper ORM**        | Efficient and lightweight ORM for database interactions. |
 | **SQL Server**        | Data storage, complex queries, and stored procedures. |
-| **Azure DevOps**      | Version control and CI/CD pipeline setup.  |
-| **IIS**               | Web hosting and server configuration for high availability. |
-| **Git**               | Version control and code collaboration.   |
-| **RDLC**              | Reporting and dashboard generation.       |
+| **Azure DevOps**      | CI/CD setup, version control, and project management. |
+| **IIS**               | Web hosting, server configuration, and high availability. |
+| **Git**               | Version control for code collaboration and management. |
+| **RDLC**              | Reporting and dashboard generation for business insights. |
 
 ---
 
-## 🏦 About the Capital Market Domain
+## 🏦 **About the Capital Market Domain**
 
-The capital market is a critical sector that allows businesses and governments to raise funds through equity and debt instruments. **Cap Connect** is designed to manage various capital market operations, including trade execution, monitoring, and regulatory compliance. The platform helps in addressing the challenges of high transaction volumes and ensures real-time transaction processing, ensuring efficiency and reliability.
-
----
-
-## 🛠️ My Role: Backend Engineer (Team)
-
-As a backend engineer on the Capital Market team, I contributed to the architecture, design, and optimization of the **Cap Connect** platform. Some key responsibilities included:  
-- **Architecting and implementing a scalable backend system** using **ASP.NET Core**, ensuring optimal performance under heavy user loads.  
-- **Optimizing RESTful APIs** for seamless communication and minimal latency during peak transaction periods.  
-- **Streamlining database performance** in **SQL Server**, handling complex stored procedures and large datasets to improve query execution times.  
-- **Collaborating with cross-functional teams** to integrate third-party APIs for bulk SMS and email notifications, improving user engagement.  
-- **Configuring and fine-tuning IIS servers** to ensure high availability and secure hosting under peak traffic conditions.
+The **Capital Market** facilitates the buying and selling of financial instruments like stocks, bonds, and derivatives, providing businesses and governments with a means to raise capital. **Cap Connect** plays a pivotal role in this domain by managing trade execution, monitoring, and regulatory compliance. The platform ensures real-time processing of transactions in an environment characterized by high transaction volumes, enhancing operational efficiency and ensuring reliability.
 
 ---
 
-## 📈 Achievements
+## 🛠️ **My Role: Backend Engineer (Team Member)**
 
-- Spearheaded the development of a **high-performance, scalable FinTech platform** that efficiently processes capital market transactions under heavy load.  
-- Contributed to optimizing **API performance**, enhancing user experience with faster transaction times.  
-- Played a key role in **reducing query execution times** by optimizing complex SQL stored procedures.  
-- Successfully **integrated third-party communication services** (SMS and email), improving real-time user notifications.  
-- Configured **IIS** servers to ensure **robust security** and **high availability**, even under peak traffic.
+As a **Backend Engineer** on the **Capital Market Team**, I contributed to the design, development, and optimization of **Cap Connect**. My core responsibilities included:
 
----
-
-## 📸 Demo Screenshots (If Applicable)
-
-https://github.com/nazmulhyder/CAPITALMARKET_API/blob/1e79083d0962504101a37285e95261e69bb5b6a1/Images/capconnect/Picture1.png
----
-
-## ⭐ Why Cap Connect Matters
-
-This project highlights my ability to work in a team to architect, develop, and optimize a complex FinTech solution.  
-- Contributed to developing a **scalable backend system** that ensures performance under high user loads.  
-- Gained experience in optimizing **APIs and databases** for large-scale financial applications.  
-- Learned to configure and manage **IIS** servers for high availability and security in production environments.  
-
-If you find this project interesting, feel free to connect or explore the repository further!
+- **Architecting Scalable Systems:** Designed and implemented backend systems using **ASP.NET Core** to ensure high-performance transaction processing under heavy traffic.
+  
+- **Optimizing APIs & Database Performance:** Enhanced the performance of RESTful APIs and fine-tuned complex SQL queries in **SQL Server** to reduce latency and improve response times during peak usage.
+  
+- **Collaborating with Cross-Functional Teams:** Worked closely with frontend developers, QA engineers, and product managers to ensure a seamless end-to-end user experience.
+  
+- **Integrating Third-Party APIs:** Integrated communication APIs for bulk SMS and email notifications, enabling real-time user engagement across various channels.
+  
+- **Configuring High-Availability Servers:** Configured and optimized **IIS** servers to ensure maximum availability, security, and performance in a production environment.
 
 ---
 
-## 📜 License
+## 📈 **Achievements**
 
-This project is proprietary to **IDLC Finance PLC** and cannot be distributed or used without permission.
+- Spearheaded the optimization of **API performance**, significantly reducing transaction times and enhancing the user experience.
+- Played a key role in **reducing query execution time** by optimizing complex SQL queries and stored procedures, improving platform efficiency.
+- Contributed to the successful **integration of third-party communication services** (SMS and email), which resulted in enhanced user notifications and engagement.
+- Configured **IIS** for high availability and ensured robust **security** during peak traffic, enhancing the platform’s stability and user trust.
 
 ---
+
+## 📸 **Project Screenshots**
+
+Here are some snapshots of **Cap Connect** in action:
+
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="https://github.com/user-attachments/assets/839e1dbe-831f-4d2c-b260-4438fd13232a" alt="Cap Connect Screenshot 1" width="300"/>
+    <img src="https://github.com/user-attachments/assets/cfce68d0-32c9-4ab7-890b-484e9d00a709" alt="Cap Connect Screenshot 3" width="300"/>
+</div>
+
+---
+
+## ⭐ **Why Cap Connect Matters**
+
+**Cap Connect** showcases my ability to contribute to the development of a **highly scalable and secure FinTech platform**. Here's why it matters:
+
+- **Scalable Backend Systems:** Involved in architecting backend systems that can handle high traffic and ensure smooth transaction processing.
+  
+- **API and Database Optimization Expertise:** Optimized performance across **APIs** and **databases**, improving efficiency in high-transaction environments.
+
+- **High Availability & Security:** Configured **IIS** servers to ensure high availability and robust security, ensuring the platform's reliability even under heavy usage.
+
+---
+
+## 📜 **License**
+
+This project is proprietary to **IDLC Finance PLC** and is not available for distribution or external use without explicit permission.
 
