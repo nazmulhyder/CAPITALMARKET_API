@@ -63,7 +63,7 @@ As a backend engineer on the Capital Market team, I contributed to the architect
 
 ## 📸 Demo Screenshots (If Applicable)
 
-> _(Add screenshots or GIFs showcasing dashboards, features, or workflows)_  
+[> _(Add screenshots or GIFs showcasing dashboards, features, or workflows)_  ](https://github.com/nazmulhyder/CAPITALMARKET_API/tree/f317ed76bfa28cab17e4293cc1fa7295dfc42ec7/Images/capconnect)
 
 ---
 
