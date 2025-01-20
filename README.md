@@ -75,7 +75,6 @@ Here are some snapshots of **Cap Connect** in action:
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
     <img src="https://github.com/user-attachments/assets/839e1dbe-831f-4d2c-b260-4438fd13232a" alt="Cap Connect Screenshot 1" width="300"/>
-    <img src="https://github.com/user-attachments/assets/7efbb01d-6b7d-4eac-98d4-0b022952ae7a" alt="Cap Connect Screenshot 2" width="300"/>
     <img src="https://github.com/user-attachments/assets/cfce68d0-32c9-4ab7-890b-484e9d00a709" alt="Cap Connect Screenshot 3" width="300"/>
 </div>
 
