@@ -101,3 +101,7 @@ Here are some snapshots of **Cap Connect** in action:
 
 This project is proprietary to **IDLC Finance PLC** and is not available for distribution or external use without explicit permission.
 
+## ⚠️ Disclaimer
+
+This project is a **back-office solution** developed for **[IDLC Finance PLC](https://www.idlc.com/)**. As it is intended solely for internal use, a public website link or demo is not available.
+
